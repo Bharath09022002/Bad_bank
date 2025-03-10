@@ -1,0 +1,258 @@
+/* .App {
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+#depositimg{
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  left:150px;
+}
+#createimg{
+  height: 500px;
+  width: 600px;
+}
+#withdrawimg{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left:150px;
+}
+h2{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px white;
+}
+#home{
+  margin-top: 300px;
+  text-align: center;
+  text-shadow: 3px 5px 5px black;
+  color:#FF7722;
+  margin-left: 25%;
+}
+#span-1{
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+#span-2{
+  color: rgb(49, 255, 49);
+  font-size: larger;
+  font-weight: boldert;
+}
+#home p{
+ 
+}
+#table{
+  width: 90%;
+  height: 20vh;
+  margin-left: 40px;
+ }
+ #label{
+  margin-left: 10px;
+ }
+ #input{
+  width:300px;
+  margin-left: 10px;
+}
+#submitbtn{
+  position: relative;
+  left: 80px;
+  top:10px;
+  color: white;
+}
+#resetbtn{
+  position: relative;
+  left: 120px;
+  top:10px;
+  color: white;
+}
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  padding: 90px; 
+  width: 500px; 
+  max-width: 100%; 
+
+}
+#nav {
+
+  background-color: #4CAF50; 
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+#nav-list{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.fullscreen-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -305;
+}
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%; 
+ 
+}
+
+
+.fullscreen-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+body{
+ 
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* General Styles *//* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3f2fd;
+  margin: 0;
+  padding: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(31,218,206,1) 100%);
+  background-attachment: fixed;
+}
+
+h2, h4, h3, p {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+#submitbtn, #resetbtn {
+  width: 100px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+#submitbtn:hover {
+  background-color: darkred;
+}
+
+#resetbtn:hover {
+  background-color: darkblue;
+}
+
+/* Table Styles */
+.table {
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Delete Button */
+button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
